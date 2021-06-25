@@ -97,8 +97,9 @@ a img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #DEEDF0;
+    /* background-color: #DEEDF0; */
     background-blend-mode: multiply;
+    background-color: #DEEDF0;
     color: #fff;
     height: 80vh;
 }
@@ -123,18 +124,14 @@ a img {
 
 /* core value section*/
 
-img {
-    width: 80%;
-    margin: auto;
+#core_values {
+    background-color: #DEEDF0;
 }
 
-
-/* .core-value {
-    background: url("../img/her02.png");
-    background-repeat: no-repeat;
-    height: 80vh;
-    width: 50%;
-} */
+img {
+    width: 100%;
+    margin: auto;
+}
 
 .core {
     text-align: left;
@@ -150,66 +147,26 @@ img {
 }
 
 
-/* .core .mt-n1 {
-    margin-top: -0.5rem !important;
-} */
+/*testimonial section*/
 
-
-/*vision section*/
-
-#section_vision {
-    background-color: #F0F7FF;
-    height: auto;
-    margin: 100px auto;
-    text-align: left;
+#testimony {
+    background-color: #FAFCFF;
 }
 
-.core-vision {
-    font-size: 40px;
-    margin: 2em 0 0 auto;
-}
-
-.vision .vision_p,
-.vision .core-vision {
-    width: 50%;
-}
-
-.vision_p {
-    font-size: 22px;
-    margin: 1em 0 0 auto;
+.testimonial img {
+    width: 6%;
 }
 
 
 /*mission section*/
 
-#section_mission {
-    height: auto;
-    margin: 60px auto;
-    text-align: left;
-}
-
-.mission .mission_header,
-.mission .mission_p {
-    width: 50%;
-}
-
-.mission_header {
-    font-size: 40px;
-    margin: 2em 2em 0 0;
-}
-
-.mission_p {
-    line-height: 34px;
-    font-size: 22px;
-}
-
 
 /* Patients and Medical assistance section*/
 
 #about_patients_assistance {
-    background-color: #F0F7FF;
+    background-color: #FAFCFF;
     height: auto;
-    margin: 50px auto;
+    /* margin: 50px auto; */
 }
 
 #about_patients_assistance .patients {
