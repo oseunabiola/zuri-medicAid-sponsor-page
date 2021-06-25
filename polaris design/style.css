@@ -4,7 +4,7 @@ body{
 }
 .container{
     
-    height: 2400px;
+    height: 2050px;
     overflow: hidden;
     position: relative;
 }
@@ -193,9 +193,6 @@ section{
     margin: auto;
 }
 
-.section-1 .info{
-
-}
 
 .section-1 .info h1{
     font-size: 60px;
@@ -207,9 +204,14 @@ section{
 }
 
 footer{
-    height: 70px;
+    height: 200px;
     background-color: black;
     overflow: hidden;  
+}
+
+footer .comp h3{
+    color: #fff;
+
 }
 
 @media (max-width: 1200px)
@@ -236,7 +238,7 @@ footer{
     }
     nav
     {
-    width: calc(50% - 20px);
+    width: calc(90% - 20px);
     margin-bottom: 20px;
     }
 
@@ -249,11 +251,27 @@ footer{
         width: 90%;
         margin: 20px auto;
     }
-    nav
+
+    header nav
     {
-    width: calc(50% - 20px);
+    width: calc(80% - 20px);
     margin-bottom: 20px;
     }
+
+    .sub-header ul li a{
+        width: calc(100% - 20px);
+        
+    }
+
+   .section-1 .info h1{
+        font-size: 24px;
+    }
+
+    .section-1 .info h2
+    {
+        font-size: 12px;
+    }
+   
 
 }
 
@@ -266,14 +284,21 @@ footer{
     }
     header nav
     {
-    width: calc(100% - 20px);
+    width: calc(80% - 20px);
     margin-bottom: 20px;
     }
 
-    .patient nav
+    .sub-header ul li a{
+        width: calc(100% - 20px);
+        
+    }
+
+    .section-1 .info h1{
+        font-size: 20px;
+    }
+
+    .section-1 .info h2
     {
-    width: calc(100% - 20px);
-    margin-bottom: 20px;
+        font-size: 12px;
     }
-
 }
