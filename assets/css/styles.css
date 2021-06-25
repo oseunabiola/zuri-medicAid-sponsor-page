@@ -10,7 +10,7 @@ body {
 }
 
 /*
-=========== Sign Up =============
+=========== Sign Up && Login =============
 */
 .input-danger {
   border: 1.5px solid red !important;
@@ -65,16 +65,24 @@ div.lets-help-md {
   }
 }
 
-div.create_account {
+div.create_account,
+div.login_account {
   margin-top: 80px !important;
   max-width: 400px;
   margin: auto;
 }
 
-form#sign_up label {
+div.login_account {
+  padding-bottom: 0%;
+  padding-top: 40px;
+}
+
+form#sign_up label,
+form#login_form label {
   font-weight: 400;
 }
-form#sign_up input {
+form#sign_up input,
+form#login_form input {
   height: 50px;
   border-radius: 12px;
   color: #070606 !important;
@@ -82,12 +90,17 @@ form#sign_up input {
   border-color: #aca3a3 !important;
 }
 form#sign_up input:focus,
-form#sign_up input:active {
+form#sign_up input:active,
+form#login_form input:focus,
+form#login_form input:active {
   color: #000 !important;
   font-size: 16px;
   border-color: #aca3a3 !important;
 }
-form#sign_up a.register-btn {
+form#sign_up a.register-btn,
+form#sign_up a.login-btn,
+form#login_form a.register-btn,
+form#login_form a.login-btn {
   padding: 12px;
   border-radius: 12px;
   font-weight: 500;
@@ -102,7 +115,8 @@ form#sign_up a.register-btn {
     display: none !important;
   }
 
-  div.create_account {
+  div.create_account,
+div.login_account {
     margin: auto !important;
     padding-bottom: 40px;
     padding-top: 40px;
@@ -114,17 +128,20 @@ form#sign_up a.register-btn {
     width: 50vw;
   }
 
-  div.create_account {
+  div.create_account,
+div.login_account {
     width: 50vw;
   }
 }
 @media screen and (max-width: 1300px) {
-  div.create_account {
+  div.create_account,
+div.login_account {
     margin-right: 100px;
   }
 }
 @media screen and (max-width: 1100px) {
-  div.create_account {
+  div.create_account,
+div.login_account {
     margin-right: 0px;
   }
 }
@@ -133,7 +150,8 @@ form#sign_up a.register-btn {
     width: 50vw !important;
   }
 
-  div.create_account {
+  div.create_account,
+div.login_account {
     margin-right: 0px;
   }
 }/*# sourceMappingURL=styles.css.map */
