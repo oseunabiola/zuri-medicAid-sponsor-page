@@ -123,11 +123,11 @@ a img {
 
 /* GI section*/
 
-#gi_touch {
+.git {
     text-align: left;
 }
 
-#gi_touch .container-fluid {
+#git .container-fluid {
     padding: 10%;
 }
 
@@ -179,16 +179,6 @@ a img {
     border-radius: 10px;
     padding: 10px;
 }
-
-
-/* partners section*/
-
-
-/* 
-.partners-pics {
-    width: 3%;
-    height: 3%;
-} */
 
 
 /* NEWSLETTER section*/
@@ -248,6 +238,23 @@ img .brand-images {
 #partner {
     margin-left: 6%;
     margin-right: 6%;
+}
+
+
+/* partners section*/
+
+.ass_spons {
+    background-color: #DEEDF0;
+    color: #005AB2;
+    padding-top: 1rem;
+}
+
+.ass_spons a {
+    color: #005AB2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 30px;
 }
 
 

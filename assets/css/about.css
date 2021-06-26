@@ -302,7 +302,7 @@ img {
 
 /* GI section*/
 
-#gi_touch {
+.git {
     text-align: left;
 }
 
@@ -360,16 +360,6 @@ img {
 }
 
 
-/* partners section*/
-
-
-/* 
-.partners-pics {
-    width: 3%;
-    height: 3%;
-} */
-
-
 /* NEWSLETTER section*/
 
 #newsletter {
@@ -403,10 +393,37 @@ img {
 }
 
 
+/*---- partners section-----*/
+
+img .brand-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner-brands {
+    margin-left: 6%;
+}
+
+#partnerss,
+#partner,
+#partners {
+    width: 12.5%;
+    height: 13%;
+    padding: 15px 0 0 0;
+}
+
+#partner {
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+
 /* partners section*/
 
 #ass_patient {
-    background-color: #F5FAFF;
+    background-color: #F0F7FF;
     color: #005AB2;
 }
 
@@ -441,7 +458,6 @@ footer h2 {
 
 footer h3 {
     font-size: 23px;
-    /* color: #FF143D; */
 }
 
 .footer-small {

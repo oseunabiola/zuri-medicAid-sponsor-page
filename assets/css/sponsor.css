@@ -250,11 +250,11 @@ a img {
 
 /* GI section*/
 
-#gi_touch {
+.git {
     text-align: left;
 }
 
-#gi_touch .container-fluid {
+#git_touch .container {
     padding: 10%;
 }
 
@@ -373,9 +373,10 @@ img .brand-images {
 
 /* partners section*/
 
-#ass_patient {
-    background-color: #F0F7FF;
+.ass_spons {
+    background-color: #DEEDF0;
     color: #005AB2;
+    padding-top: 1rem;
 }
 
 .ass_spons a {
