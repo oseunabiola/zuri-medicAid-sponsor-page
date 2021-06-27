@@ -5,24 +5,36 @@
     box-sizing: border-box;
     text-decoration: none;
 }
- 
-.administrator {
+
+.h4 {
     text-align: left;
+    margin-bottom: 20px;
+}
+.h5 {
+    margin-bottom:2rem;
+    text-align:left;
+}
+.h5>span {
+    color: #007bff;
+}
+.h5>strong {
+    margin-left: 15rem;
+} 
+.container {
+   align-items: flex-end;
+}
+.d-grid:hover {
+    color:dodgerblue;
+}
+.buttons {
+    justify-content: space-between;
+}
+.nav.d-flex {
+   margin-bottom: 1rem;
+}
+.nav.d-flex:hover{
+    color:inherit;
+    
 }
 
-a:hover {
-    text-decoration: none;
-    color:rgb(26, 113, 199);
-}
 
-ul {
-    text-align: justify;
-    justify-content: space-around;
-}
-
-ul.img {
-    background-color: deepskyblue;
-}
-.Sidebar a span:first-child {
-    padding: 0rem 1rem 0rem;
-}
