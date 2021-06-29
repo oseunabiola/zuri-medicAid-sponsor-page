@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+div.change_password {
+  margin-top: 80px !important;
+  max-width: 400px;
+  margin: auto;
+}
+
+div.change_password {
+  padding-bottom: 0%;
+  padding-top: 40px;
+}
+div.change_password p.h3 {
+  font-weight: 600;
+  color: #000;
+}
+
+form#change_password_form label {
+  font-weight: 400;
+}
+form#change_password_form input {
+  height: 50px;
+  border-radius: 12px;
+  color: #070606 !important;
+  font-size: 15px;
+  border-color: #aca3a3 !important;
+}
+form#change_password_form input:focus,
+form#change_password_form input:active {
+  color: #000 !important;
+  font-size: 16px;
+  border-color: #aca3a3 !important;
+}
+form#change_password_form a.register-btn,
+form#change_password_form a.login-btn {
+  padding: 12px;
+  border-radius: 12px;
+  font-weight: 500;
+}/*# sourceMappingURL=admin-settings.css.map */
