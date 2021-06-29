@@ -121,192 +121,13 @@ a img {
 }
 
 
-/* core value section*/
-
-img {
-    width: 80%;
-    margin: auto;
-}
-
-
-/* .core-value {
-    background: url("../img/her02.png");
-    background-repeat: no-repeat;
-    height: 80vh;
-    width: 50%;
-} */
-
-.core {
-    text-align: left;
-}
-
-.core .values p {
-    line-height: 24px;
-    font-size: 14px;
-}
-
-.values h4 {
-    font-size: 30px;
-}
-
-
-/* .core .mt-n1 {
-    margin-top: -0.5rem !important;
-} */
-
-
-/*vision section*/
-
-#section_vision {
-    background-color: #F0F7FF;
-    height: auto;
-    margin: 100px auto;
-    text-align: left;
-}
-
-.core-vision {
-    font-size: 40px;
-    margin: 2em 0 0 auto;
-}
-
-.vision .vision_p,
-.vision .core-vision {
-    width: 50%;
-}
-
-.vision_p {
-    font-size: 22px;
-    margin: 1em 0 0 auto;
-}
-
-
-/*mission section*/
-
-#section_mission {
-    height: auto;
-    margin: 60px auto;
-    text-align: left;
-}
-
-.mission .mission_header,
-.mission .mission_p {
-    width: 50%;
-}
-
-.mission_header {
-    font-size: 40px;
-    margin: 2em 2em 0 0;
-}
-
-.mission_p {
-    line-height: 34px;
-    font-size: 22px;
-}
-
-
-/* Patients and Medical assistance section*/
-
-#about_patients_assistance {
-    background-color: #F0F7FF;
-    height: auto;
-    margin: 50px auto;
-}
-
-#about_patients_assistance .patients {
-    margin: 100px auto 0;
-}
-
-#about_patients_assistance .assistance {
-    background-image: radial-gradient(#081A2B, rgba(8, 26, 43, 75%)), url("../img/doc-assist.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #DEEDF0;
-    background-blend-mode: multiply;
-    border-radius: 25px;
-    color: #fff;
-    height: 70vh;
-    width: 80vw;
-    margin: 100px auto;
-}
-
-.assistance h2 {
-    margin-top: 8rem;
-    font-size: 50px;
-}
-
-.assistance p {
-    margin: 25px auto;
-    width: 50%;
-}
-
-.patients_assistance .ass-btn {
-    border: none;
-    color: #0275d8;
-    padding: 10px;
-    border-radius: 10px;
-    width: 200px;
-    font-weight: 600;
-}
-
-
-/* FAQ section*/
-
-.faq_head {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-}
-
-#fa_questions {
-    text-align: left;
-}
-
-.QA {
-    margin-left: 120px;
-}
-
-
-/* CTA section*/
-
-#CTA_sponsors {
-    background-color: #0275d8;
-    height: 65vh;
-    color: #fff;
-}
-
-#CTA_sponsors .container-fluid {
-    padding: 3rem 5rem;
-}
-
-.CTA .ass-btn {
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    width: 200px;
-    color: #0275d8;
-    font-weight: 600;
-}
-
-
-/* .call_to_sponsors h3 {
-    margin-top: 120px;
-} */
-
-.call_to_sponsors p {
-    width: 50%;
-    margin: 25px auto;
-}
-
-
 /* GI section*/
 
 .git {
     text-align: left;
 }
 
-#gi_touch .container-fluid {
+#git .container-fluid {
     padding: 10%;
 }
 
@@ -330,7 +151,7 @@ img {
 .git_details .env-text {
     color: #000;
     font-size: 15px;
-    margin-left: 10px;
+    margin-left: 8px;
     font-weight: 200
 }
 
@@ -343,7 +164,6 @@ img {
 
 .form-group label {
     margin-bottom: 10px;
-    ;
 }
 
 .form-group textarea {
@@ -422,9 +242,10 @@ img .brand-images {
 
 /* partners section*/
 
-#ass_patient {
-    background-color: #F0F7FF;
+.ass_spons {
+    background-color: #DEEDF0;
     color: #005AB2;
+    padding-top: 1rem;
 }
 
 .ass_spons a {
@@ -458,6 +279,7 @@ footer h2 {
 
 footer h3 {
     font-size: 23px;
+    /* color: #FF143D; */
 }
 
 .footer-small {
