@@ -24,16 +24,17 @@ body {
     text-decoration: none;
     color: $primary-color;
   }
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
   .sponsor-list-sidebar {
     background-color: $white;
     width: 20%;
     height: 100vh;
     padding: 2rem 1.9rem;
     &__nav {
-      ul {
-        padding: 0;
-        list-style-type: none;
-      }
       .nav-item {
         font-size: 0.9rem;
         a {
@@ -75,7 +76,7 @@ body {
       }
     }
   }
-  .left-section {
+  .right-section {
     background-color: #fafafa;
     width: 80%;
     &-container {
@@ -128,6 +129,7 @@ body {
         }
       }
       .pagination {
+        padding: 0;
         .page-link {
           border: 2px solid $primary-color;
           border-radius: 7px;
