@@ -30,6 +30,7 @@
     <!-- End of Google Font -->
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/sponsor_list.css" />
+    <script src="assets/js/sponsor_list.js" defer></script>
     <title>Sponsor List</title>
   </head>
 
@@ -37,95 +38,96 @@
     <div class="container-fluid sponsor-list">
       <div class="row">
         <!-- Sidebar -->
-        <div
-          class="
-            sponsor-list-sidebar
-            col-md-6 col-lg-3
-            d-flex
-            flex-column
-            justify-content-between
-          "
-        >
-          <div class="sponsor-list-sidebar__brand my-1">
-            <header class="h5 fw-bold">
-              Medic<span class="sponsor-list-blue">Aid</span>
-            </header>
-          </div>
-          <div class="sponsor-list-sidebar__profile d-flex align-items-center">
-            <img
-              src="assets/img/emma.png"
-              alt="single"
-              class="col-3 img-fluid"
-            />
-            <div class="details col-9 ms-2">
-              <div class="fw-bolder fs-6">Adeeko Emmanuel</div>
-              <div><small>Administrator</small></div>
+        <div class="sponsor-list-sidebar col-md-6 col-lg-3 d-flex">
+          <div>
+            <div class="sponsor-list-sidebar__brand">
+              <header class="h5 fw-bold">
+                Medic<span class="sponsor-list-blue">Aid</span>
+              </header>
             </div>
-          </div>
-          <nav class="sponsor-list-sidebar__nav">
-            <ul>
-              <li class="nav-item">
-                <a href="#"
-                  ><i class="far fa-th-large fa-fw"></i
-                  ><span class="aid"> Dashboard</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="#" class="current-page"
-                  ><i class="fas fa-users fa-fw"></i
-                  ><span class="aid"> Sponsors</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="#"
-                  ><i class="fas fa-chart-bar fa-fw"></i
-                  ><span class="aid"> Medical Cases</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="#"
-                  ><i class="far fa-users fa-fw"></i
-                  ><span class="aid"> Patients</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="#"
-                  ><i class="fas fa-user fa-fw"></i
-                  ><span class="aid"> Account</span></a
-                >
-              </li>
-            </ul>
-          </nav>
-
-          <div class="sponsor-list-sidebar__learn-more">
-            <img src="assets/img/trio.png" alt="trio" class="img-fluid" />
-            <button type="button" class="btn btn-primary">
-              Learn more about COVID-19
-            </button>
-          </div>
-
-          <div class="switch sponsor-list-blue">
-            <div class="form-check form-switch">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                id="flexSwitchCheckChecked"
-                checked
+            <div class="sponsor-list-sidebar__profile row align-items-center">
+              <img
+                src="assets/img/emma.png"
+                alt="single"
+                class="col-4 img-fluid p-3"
               />
-              <label class="form-check-label" for="flexSwitchCheckChecked"
-                >Switch to Dark Mode</label
-              >
+              <div class="details col-8 ps-0">
+                <div class="fw-bolder">Adeeko Emmanuel</div>
+                <div><small>Administrator</small></div>
+              </div>
+            </div>
+            <nav class="sponsor-list-sidebar__nav">
+              <ul>
+                <li class="nav-item">
+                  <a href="#"
+                    ><i class="far fa-th-large fa-fw"></i
+                    ><span class="aid"> Dashboard</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="current-page"
+                    ><i class="fas fa-users fa-fw"></i
+                    ><span class="aid"> Sponsors</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#"
+                    ><i class="fas fa-chart-bar fa-fw"></i
+                    ><span class="aid"> Medical Cases</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#"
+                    ><i class="far fa-users fa-fw"></i
+                    ><span class="aid"> Patients</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#"
+                    ><i class="fas fa-user fa-fw"></i
+                    ><span class="aid"> Account</span></a
+                  >
+                </li>
+              </ul>
+            </nav>
+
+            <div class="sponsor-list-sidebar__learn-more">
+              <img src="assets/img/trio.png" alt="trio" class="img-fluid" />
+              <button type="button" class="btn btn-primary">
+                Learn more about COVID-19
+              </button>
+            </div>
+
+            <div class="switch sponsor-list-blue">
+              <div class="form-check form-switch">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="flexSwitchCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexSwitchCheckChecked"
+                  >Switch to Dark Mode</label
+                >
+              </div>
             </div>
           </div>
+          <div class="sponsor-list-sidebar-mobile-overlay d-md-none"></div>
         </div>
         <!-- End of Sidebar-->
         <!-- Right section -->
-        <section class="right-section col-md-6 col-lg-9 py-4">
+        <section class="right-section col-md-6 col-lg-9 py-4 ps-3">
           <div class="right-section-container">
             <div
-              class="right-section__top-bar d-flex justify-content-between mb-4"
+              class="
+                right-section__top-bar
+                d-flex
+                align-items-center
+                justify-content-between
+                mb-4
+              "
             >
-              <div class="col-4">
+              <div class="col-7 col-md-4">
                 <div class="top-bar__search input-group">
                   <input
                     type="search"
@@ -140,6 +142,7 @@
               <div class="top-bar__notification">
                 <i class="fas fa-cog ps-3"></i>
                 <i class="far fa-bell ps-3 sponsor-list-blue"></i>
+                <i class="sponsor-list-sidebar-toggle far fa-bars ps-3"></i>
               </div>
             </div>
             <div
@@ -171,12 +174,10 @@
               <div class="fw-bold">All</div>
               <div class="divider"></div>
             </div>
-            <main class="py-5 px-4">
-              <div
-                class="d-flex justify-content-between align-items-center mb-4"
-              >
-                <header class="h5 fw-bold">All Sponsors</header>
-                <div class="col-4">
+            <main class="py-3 py-md-5 px-3 px-md-4">
+              <div class="row justify-content-between align-items-center mb-4">
+                <header class="col-12 h5 fw-bold">All Sponsors</header>
+                <div class="col-12 col-md-4">
                   <div class="top-bar__search input-group">
                     <input
                       type="search"
@@ -293,7 +294,7 @@
                   </tbody>
                 </table>
               </div>
-              <div class="mt-5 d-flex justify-content-end">
+              <div class="mt-2 mt-md-5 d-flex justify-content-end">
                 <nav aria-label="Page navigation example">
                   <ul class="pagination">
                     <li class="page-item">
